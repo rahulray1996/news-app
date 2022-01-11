@@ -39,6 +39,19 @@
 
 .container{
   display: flex;
-  width: 80%;
+  width: 100%;
   flex-direction: column;
+}
+
+.container button{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #535252;
+  box-shadow: 5px 10px 30px rgba(240, 236, 236, 0.884);
+  border-radius: 5px;
+  color:#dbd5d5;
 }

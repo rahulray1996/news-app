@@ -1,13 +1,14 @@
 import React from "react";
+import './newsItem.css'
 
 const NewsItem=(props)=> {
     return(
-        <div style= {{ display: "flex" }}>
+        <div className="newsitem">
             <div>
             <h1>{props.data.title}</h1>
             <p>{props.data.description}</p>
             </div>
-            <img src={props.data.urlToImage} style={{height:'200px', width:'300px', objectFit:'cover'}} />
+            <img src={props.data.urlToImage} />
         </div>
     );
 };
